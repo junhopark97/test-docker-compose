@@ -14,7 +14,7 @@ def index() -> str:
     print(requests.get("http://localhost:8000/securities").json())
     # response = requests.get(f"{ISSUANCE_SEVER_URI}" + "/securities")
     # return response.json()
-    # 2(amend로 수정) - 마지막 커밋 후 2를 수정 
+    # 2(amend로 수정)
     return 'Hello World'
 
 
