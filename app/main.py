@@ -14,7 +14,7 @@ def index() -> str:
     print(requests.get("http://localhost:8000/securities").json())
     # response = requests.get(f"{ISSUANCE_SEVER_URI}" + "/securities")
     # return response.json()
-    # rebase test1
+    # rebase test12
     return 'Hello World'
 
 
